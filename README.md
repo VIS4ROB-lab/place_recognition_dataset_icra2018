@@ -37,9 +37,9 @@ alt="shop2_seq1" width="200"  border="10" /></a>
  
 **Shopping Street 2**            - [Bagfile](https://drive.google.com/open?id=1sBDoWiilaPmteUIDp6p54frIXypHfA_u) - [Youtube](https://youtu.be/u0VNov7QB4w)
 
-### Ground-Truth
+### Ground truth
 
-Each ground truth was manually annotated using 2 different sequences, a query sequence and a reference sequence. The sequences used as reference and query for the available ground truths are:
+The ground truth for each dataset was manually annotated using 2 different sequences, a query sequence and a reference sequence. The sequences used as reference and query for the available ground truth are:
 
 * Shopping Street 1:
 
@@ -51,12 +51,12 @@ Each ground truth was manually annotated using 2 different sequences, a query se
   - Reference Dataset: Shopping Street 1 sequence 1
   - Query Dataset    : Shopping Street 2
 
-More details about the ground-truths are available on the links below.
+More details about the ground truth are available on the links below.
 
-**Shopping Street 1** - [Ground-Truth](https://drive.google.com/open?id=1O93psP0VRPBsRvNxdSMNY3oYU4gNZrHn)
+**Shopping Street 1** - [Ground truth](https://drive.google.com/open?id=1PzQtk39eUdf6QbGR7Vr0OdPbnPVdHB6F)
 
-**Shopping Street 1 & 2** - [Ground-Truth](https://drive.google.com/open?id=1qYRFCiDP7Y71rI7DFwzADU00A-Rhi27P)
-
+**Shopping Street 1 & 2** - [Ground truth](https://drive.google.com/open?id=1NxfrqvjiYxvMNLKdM9qkyXfiZakF4NqZ)
+                                           
 ## UAV dataset
 
 This sequence was recorded along a residential street using the Visual-Inertial sensor mounted on the bottom of an AscTec Neo UAV in a front-looking configuration, while performing lateral movements with the UAV in both directions. This sequence exhibits perceptual aliasing as well as large variance in viewpoints and difficult lighting conditions.
