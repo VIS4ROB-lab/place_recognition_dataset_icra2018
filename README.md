@@ -74,6 +74,25 @@ alt="uav_seq2" width="200"  border="10" /></a>
 **UAV dataset Sequence 2** - [Bagfile](https://drive.google.com/open?id=1XIVGezQGWDNACcr_nwHy2rzotFY1xuLJ) - [Youtube](https://youtu.be/WkTvdD9xxTE)
 
 
+### Calibration
+
+The images were captured using a [VI-Sensor](http://wiki.ros.org/vi_sensor) and calibrated using [ETHZ ASL Kalibr](https://github.com/ethz-asl/kalibr). Below are the calibration parameters. Note that T_SC is the transformation from the Camera to the Sensor (IMU). The set of values correspond to camera0's intrinsics.
+
+```python
+
+- {T_SC:     
+    [ 0.9999921569165363, 0.003945890103835121, 0.0003406709575200133, -0.030976405894694664,        
+     -0.003948017768440125, 0.9999711543561547, 0.0064887295612456805, 0.003944069243840622,         
+     -0.00031505731688472255, -0.0064900236445916415, 0.9999788899431723, -0.016723945219020563,
+     0.0, 0.0, 0.0, 1.0],
+    image_dimension: [752, 480],
+    distortion_coefficients: [0.0038403216668672986, 0.025065957244781098, -0.05227986912373674, 0.03635919730588422],
+    distortion_type: equidistant,
+    focal_length: [464.2604856754006, 463.0164764480498],
+    principal_point: [372.2582270417875, 235.05442086962864]}
+
+```
+
 ### Contact
 
 For any questions or bug reports, please create an issue or contact me at fmaffra@mavt.ethz.ch.
